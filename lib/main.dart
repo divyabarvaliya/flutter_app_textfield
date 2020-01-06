@@ -118,7 +118,7 @@ class HomePage extends StatelessWidget {
                 Navigator.pushReplacement(context,
                     MaterialPageRoute(builder: (context) => LoginPage()));
               },
-              child: Text("Logout"),
+              child: Center(child: Text("Logout")),
             ),
           )
         ],
